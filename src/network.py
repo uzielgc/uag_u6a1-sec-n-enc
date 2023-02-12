@@ -6,6 +6,7 @@
     usage: import network
            from network import <class>
 
+    repo: https://github.com/uzielgc/uag_u6a1-sec-n-enc
 """
 
 import socket
