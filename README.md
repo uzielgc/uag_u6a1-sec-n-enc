@@ -56,10 +56,10 @@ pip install -r requirements.txt
 * Click en la imagen para ir al video demo. (media/enc.mov)^
 
 
-[![](media/enc-001.png)]
+[](media/enc-001.png)
 Mensajes encriptados 
 
-[![](media/enc-002.png)]
+[](media/enc-002.png)
 Mensajes decriptados 
 
 ### Output:
