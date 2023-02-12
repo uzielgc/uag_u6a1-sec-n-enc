@@ -14,11 +14,11 @@ src/
 
 ### network.py
 
-Crypto: Crea llaves privada y pública RSA y proveé funciones de encriptado y desencriptado.
-User:  Es la representación de un usuario, almacena nombre de usuario y hashed pass.
-Network: Clase base para los sockets TCP.
-Server: Extiende el funcionamiento de la clase "Network" e implementa funciones propias del servidor; maneja los clientes y distribuye los mensajes.
-Client: Es responsable de establecer la conexión con el servidor e intercambia la llave publica con los demas nodos. Encripta y envia mensajes, recibe y decripta.
+* Crypto: Crea llaves privada y pública RSA y proveé funciones de encriptado y desencriptado.
+* User:  Es la representación de un usuario, almacena nombre de usuario y hashed pass.
+* Network: Clase base para los sockets TCP.
+* Server: Extiende el funcionamiento de la clase "Network" e implementa funciones propias del servidor; maneja los clientes y distribuye los mensajes.
+* Client: Es responsable de establecer la conexión con el servidor e intercambia la llave publica con los demas nodos. Encripta y envia mensajes, recibe y decripta.
 
 Al correr el nodo servidor se crea un thread para introducir comandos y monitorear los usuarios.
 
